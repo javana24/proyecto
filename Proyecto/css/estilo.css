@@ -1,0 +1,49 @@
+/*************************************************************************/
+/*                                                                       */
+/*                                                                       */
+/*     AQUÍ IRÁ EL COMENTARIO DE MI TRABAJO                                                                   */ 
+/*                                                                       */
+/*                                                                       */
+/*************************************************************************/
+
+@font-face {
+    font-family: texto;
+    src: url(../font/southing.regular.ttf);
+}
+
+@font-face {
+    font-family: titulos;
+    src: url(../font/autumn-in-november.zip);
+}
+
+/************** layout general ************/
+
+body {background-color: saddlebrown;
+    color: white;
+    font-family: texto;
+    font-size: 2.5em;}
+
+#wrapper {width: 80%;
+            margin: auto;
+            background-color: black;}
+
+/****************** barra de navegacion **********/
+
+nav {font-family: titulos;}
+
+/*********** hero section *******************/
+
+#hero {background-image: url(../img/fondo-marron7.jpg);
+        height: 70vh;
+        background-size: cover;
+        background-position: center;
+        font-size: 1.25em;
+        font-family: titulos;
+        padding-left: 5%;
+        }
+
+/*******************responsividad***************/
+
+@media only screen and (width<650px){
+    #wrapper {width: 95%;}
+}
