@@ -23,7 +23,7 @@ body {background-color: saddlebrown;
     font-family: texto;
     font-size: 2.5em;}
 
-#wrapper {width: 80%;
+#wrapper {width: 75%;
             margin: auto;
             background-color: black;}
 
@@ -42,6 +42,27 @@ nav {font-family: titulos;}
         padding-left: 5%;
         }
 
+#fotos {background-image: url(../img/Camiseta\ de\ cable\ con\ bordado\ de\ letras.jpeg);
+        height: 70vh;
+        background-size: cover;
+        background-position: center;
+        
+        }
+
+#fotos1 {background-image: url(../img/Camiseta\ de\ hombros\ caídos\ con\ estampado\ de\ slogan.jpeg);}
+
+#titulo_gallery {text-align: center;
+                padding-top: 15.5%;
+                font-family: titulos;
+                font-size: 1.25em;}
+
+#Bienvenida     {text-align: center;
+                padding-top: 1%;
+                font-family: titulos;
+                font-size: 1.25;
+                border: 2px solid chocolate;
+                border-radius: 40px 40px 40px 40px;
+                box-shadow: -5px 8px 8px sienna;}
 /*******************responsividad***************/
 
 @media only screen and (width<650px){
